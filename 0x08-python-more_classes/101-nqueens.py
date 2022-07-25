@@ -16,7 +16,7 @@ if __name__ == "__main__":
         print("N must be a number")
         exit(1)
     n = int(argv[1])
-    if n < 4:
+    if n >= 4:
         print("N must be at least 4")
         exit(1)
 
